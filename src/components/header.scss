@@ -1,0 +1,91 @@
+header {
+    background: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    h1 {
+        a {
+            background: #FFF;
+            color: #080;
+            font-size: 60px;
+            text-decoration: none;
+        }
+    }
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+
+.find-out {
+    .container {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .left {
+        margin-left: -15px;
+    }
+
+    .right {
+        margin-right: -60px;
+    }
+
+    .text {
+        font-size: 2.4em;
+        font-weight: 900;
+    }
+}
+
+.hire {
+    background: #FFF;
+    height: 240px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 800px;
+
+    /* position: fixed; */
+    position: sticky;
+
+    #fadebar {
+        background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+        height: 30px;
+        width: 100%;
+    }
+
+    #monitor {
+        position: absolute;
+        right: 0;
+    }
+
+    .nameplate {
+        position: absolute;
+        right: 40px;
+        top: 135px;
+    }
+
+    .paul {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        z-index: -1;
+
+        img {
+            display: block;
+        }
+    }
+
+    .relative {
+        /* position: relative; */
+        height: 160px;
+    }
+}
+
+
+.offset {
+    height: 2rem; /* 280px; */
+}

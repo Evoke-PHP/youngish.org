@@ -1,0 +1,46 @@
+.contact-form {
+    border: .2rem solid #080;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-top: 3rem;
+
+    h1 {
+        background: #080;
+        color: #FFF;
+        display: block;
+        font-size: 2.5rem;
+        padding: .5rem 0 .2rem 0;
+    }
+
+    form {
+        padding: 1rem;
+        text-align: left;
+
+        input[type=submit] {
+            border: thin solid #050;
+            border-radius: .5rem;
+            background: linear-gradient(to top, #060, #090);
+            color: #FFF;
+            float: right;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 2rem 1rem 1rem 1rem;
+            padding: .5rem;
+
+            &:hover {
+                background: linear-gradient(to top, #272, #2A2);
+            }
+        }
+
+
+        p {
+            margin: 1rem 1.5rem;
+        }
+
+        textarea {
+            border: thin solid #000;
+            display: block;
+            margin: 0 1rem;
+        }
+    }
+}

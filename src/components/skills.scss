@@ -1,0 +1,97 @@
+.skills {
+    >h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        margin: 2rem 0;
+    }
+
+    .skills-grid {
+        column-gap: 5rem;
+        display: grid;
+        grid-template-areas:
+            "general code infrastructure"
+            "test operating-system operating-system"
+            "core core core";
+        margin: 1rem auto;
+        row-gap: 3rem;
+        width: 60rem;
+
+        section {
+            border-radius: .8rem;
+            border-style: solid;
+            border-width: .4rem;
+            display: inline-block;
+
+            h1 {
+                color: #FFF;
+                font-size: 1.8rem;
+                padding: .5rem;
+            }
+
+            &.code {
+                border-color: #080;
+                grid-area: code;
+
+                h1 {
+                    background: #080;
+                }
+            }
+
+            &.core {
+                border-color: #000;
+                grid-area: core;
+
+                h1 {
+                    background: #000;
+                    color: #FFF;
+                }
+            }
+
+            &.general {
+                border-color: #DBCB2E;
+                grid-area: general;
+
+                h1 {
+                    background: #DBCB2E;
+                }
+            }
+
+            &.infrastructure {
+                border-color: #F2993F;
+                grid-area: infrastructure;
+
+                h1 {
+                    background: #F2993F;
+                }
+            }
+
+            &.operating-system {
+                border-color: #9B57FA;
+                grid-area: operating-system;
+
+                h1 {
+                    background: #9B57FA;
+                }
+            }
+
+            &.test {
+                border-color: #DB2E4D;
+                grid-area: test;
+
+                h1 {
+                    background: #DB2E4D;
+                }
+
+                ul {
+                    display: inline-block;
+                    padding: .5rem 1rem 0 1rem;
+                }
+            }
+
+            li {
+                list-style: none;
+                padding: 1rem;
+            }
+        }
+    }
+}

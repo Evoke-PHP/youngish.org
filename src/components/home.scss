@@ -1,0 +1,31 @@
+@import "../style/reset.css";
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+main {
+    background: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.about-me {
+
+    .intro {
+        margin: 1.5rem 0;
+    }
+}
+
+.details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page {
+    border-left: thin solid #AAA;
+    border-right: thin solid #AAA;
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,16 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="
+     M 7.7 54
+     a 150 190 0 0 0 50 70
+     A 190 130 0 0 1 74 145
+     h 1
+     L 75 40
+     z" fill="red" id="bottom"></path>
+    </defs>
+
+    <circle fill="red" cx="43" cy="40" r="38"/>
+    <circle fill="red" cx="107" cy="40" r="38"/>
+    <use xlink:href="#bottom"/>
+    <use xlink:href="#bottom" transform="scale(1,-1) translate(0,-100) rotate(180,75,75) translate(0,50)"/>
+</svg>
