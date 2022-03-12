@@ -7,6 +7,7 @@ import './contact-form.scss'
 export const ContactForm = (): JSX.Element => {
     const [message, setMessage] = useState("");
     const submitContact: FormEventHandler = e => {
+        e.preventDefault();
 
         (
             async () => {
@@ -27,8 +28,6 @@ export const ContactForm = (): JSX.Element => {
                 }
             }
         )();
-
-        alert(message);
     };
 
     return (
