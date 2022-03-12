@@ -12,7 +12,7 @@ export const OnlinePresence = () : JSX.Element => (
            <ul>
                <li>
                    <a href="https://stackexchange.com/users/275041/paul">
-                       <img src="http://stackexchange.com/users/flair/275041.png"
+                       <img src="https://stackexchange.com/users/flair/275041.png"
                             alt="profile for Paul on Stack Exchange, a network of free, community-driven Q&amp;A sites"
                             title="profile for Paul on Stack Exchange, a network of free, community-driven Q&amp;A sites"/>
                    </a>
