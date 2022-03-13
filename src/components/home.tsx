@@ -6,6 +6,8 @@ import {Portfolio} from "./portfolio"
 import {Skills} from "./skills"
 import {Status} from "./status"
 
+import "../style/reset.scss";
+import "../style/responsive.scss"
 import "./home.scss"
 
 export const Home = (): JSX.Element => {

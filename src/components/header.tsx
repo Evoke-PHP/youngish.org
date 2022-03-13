@@ -38,7 +38,7 @@ export const Header = (): JSX.Element => {
                             } :
                             {}
                     }>
-                        <img alt="Paul Young" width="130px" src={imgPaulDesktop}/>
+                        <img alt="Paul Young" width="130" src={imgPaulDesktop}/>
                         <span style={
                             {
                                 opacity: scrollPercent < 0.8 ?
@@ -47,8 +47,8 @@ export const Header = (): JSX.Element => {
                             }
                         }>I am Paul Young.</span>
                     </div>
-                    <img alt="monitor" id="monitor" src={imgMonitor} width="180px"/>
-                    <img id="nameplate" className="nameplate" alt="nameplate" width="100px" src={imgNameplate}/>
+                    <img alt="monitor" id="monitor" src={imgMonitor} width="180"/>
+                    <img id="nameplate" className="nameplate" alt="nameplate" width="100" src={imgNameplate}/>
                 </div>
                 <div className="find-out">
                     <div className="container">

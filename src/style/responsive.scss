@@ -1,0 +1,13 @@
+:root {
+    font-size: 25%;
+
+    @media screen and (min-width: 799px) and (max-width: 1199px){
+        font-size: 35%;
+    }
+
+    @media screen and (min-width: 1200px){
+        font-size: 62.5%;
+     }
+}
+
+

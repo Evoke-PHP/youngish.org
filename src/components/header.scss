@@ -8,7 +8,7 @@ header {
         a {
             background: #FFF;
             color: #080;
-            font-size: 60px;
+            font-size: 6rem;
             text-decoration: none;
         }
     }
@@ -26,12 +26,16 @@ p {
         margin: 0 auto;
     }
 
-    .left {
-        margin-left: -15px;
-    }
+    img {
+        &.left {
+            height: 3.6rem;
+            margin-left: -1.5rem;
+        }
 
-    .right {
-        margin-right: -60px;
+        &.right {
+            height: 2.7rem;
+            margin-right: -6rem;
+        }
     }
 
     .text {
@@ -42,50 +46,51 @@ p {
 
 .hire {
     background: #FFF;
-    height: 240px;
+    height: 24rem;
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
-    min-width: 800px;
+    max-width: 120rem;
+    min-width: 80rem;
 
     /* position: fixed; */
     position: sticky;
 
     #fadebar {
         background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
-        height: 30px;
+        height: 3rem;
         width: 100%;
     }
 
     #monitor {
         position: absolute;
         right: 0;
+        width: 18rem;
     }
 
     .nameplate {
         position: absolute;
-        right: 40px;
-        top: 135px;
+        right: 4rem;
+        top: 13.5rem;
+        width: 10rem;
     }
 
     .paul {
         position: absolute;
         left: 0;
-        top: 8px;
+        top: .8rem;
         z-index: -1;
 
         img {
             display: block;
+            width: 13rem;
         }
     }
 
     .relative {
-        /* position: relative; */
-        height: 160px;
+        height: 16rem;
     }
 }
 
-
 .offset {
-    height: 2rem; /* 280px; */
+    height: 2rem;
 }

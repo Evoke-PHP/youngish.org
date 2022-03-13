@@ -1,5 +1,3 @@
-@import "../style/reset.css";
-
 h1 {
     font-size: 3rem;
     font-weight: bolder;
@@ -8,8 +6,8 @@ h1 {
 main {
     background: #FFF;
     margin: 0 auto;
+    max-width: 1200rem;
     text-align: center;
-    width: 1200px;
 }
 
 .about-me {
